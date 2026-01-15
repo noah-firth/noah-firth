@@ -8,9 +8,7 @@
 <style>
 :root {
   --bg:#f6f5f2;
-  --card:#ffffff;
   --text:#1a1a1a;
-  --muted:#6f6f6f;
   --accent:#9a8c6a;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -44,31 +42,24 @@ h1{
   font-size:.9rem;
 }
 section{
-  max-width:1100px;
+  max-width:1200px;
   margin:4rem auto;
   padding:0 2rem;
 }
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:1.75rem;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:1rem;
 }
 .card{
-  background:var(--card);
-  border-radius:16px;
   overflow:hidden;
-  box-shadow:0 10px 30px rgba(0,0,0,.06);
+  border-radius:12px;
 }
 .card img{
   width:100%;
+  height:auto;
   display:block;
-}
-.card .caption{
-  padding:1.2rem 1.3rem 1.5rem;
-}
-.card h3{
-  font-weight:500;
-  margin-bottom:.4rem;
+  border-radius:12px;
 }
 .about{
   max-width:700px;
@@ -81,7 +72,7 @@ section h2{
 footer{
   text-align:center;
   padding:3rem 1rem;
-  color:var(--muted);
+  color:#6f6f6f;
   font-size:.9rem;
 }
 a{
@@ -105,27 +96,12 @@ a:hover{
 
 <section>
   <div class="grid">
-    <div class="card">
-      <img src="gallery1.jpg" alt="Performance still">
-      <div class="caption">
-        <h3>Stage Work</h3>
-        <p>Immersive and ensemble‑driven theater.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="gallery2.jpg" alt="Film still">
-      <div class="caption">
-        <h3>Film</h3>
-        <p>Independent film and narrative shorts.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="gallery3.jpg" alt="Education work">
-      <div class="caption">
-        <h3>Education</h3>
-        <p>Performance and teaching across age groups.</p>
-      </div>
-    </div>
+    <div class="card"><img src="gallery1.jpg" alt="Performance still 1"></div>
+    <div class="card"><img src="gallery2.jpg" alt="Performance still 2"></div>
+    <div class="card"><img src="gallery3.jpg" alt="Performance still 3"></div>
+    <div class="card"><img src="gallery4.jpg" alt="Performance still 4"></div>
+    <div class="card"><img src="gallery5.jpg" alt="Performance still 5"></div>
+    <div class="card"><img src="gallery6.jpg" alt="Performance still 6"></div>
   </div>
 </section>
 
@@ -139,8 +115,7 @@ a:hover{
 
 <section>
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:noah@example.com">noah@example.com</a></p>
-  <p><a href="NoahFirth_Resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+  <p>Email: <a href="mailto:noahfirth@yahoo.com">noahfirth@yahoo.com</a></p>
 </section>
 
 <footer>
