@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Noah Firth – Actor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f6f5f2;
+  --card:#ffffff;
+  --text:#1a1a1a;
+  --muted:#6f6f6f;
+  --accent:#9a8c6a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Inter, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+header{
+  min-height:70vh;
+  background:url('hero.jpg') center/cover no-repeat;
+  display:flex;
+  align-items:flex-end;
+}
+.header-inner{
+  background:linear-gradient(transparent, rgba(246,245,242,.95));
+  width:100%;
+  padding:4rem 2rem;
+}
+h1{
+  font-size:3.2rem;
+  font-weight:500;
+  letter-spacing:.02em;
+}
+.tagline{
+  color:var(--accent);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-top:.75rem;
+  font-size:.9rem;
+}
+section{
+  max-width:1100px;
+  margin:4rem auto;
+  padding:0 2rem;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.75rem;
+}
+.card{
+  background:var(--card);
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.06);
+}
+.card img{
+  width:100%;
+  display:block;
+}
+.card .caption{
+  padding:1.2rem 1.3rem 1.5rem;
+}
+.card h3{
+  font-weight:500;
+  margin-bottom:.4rem;
+}
+.about{
+  max-width:700px;
+}
+.about h2,
+section h2{
+  font-weight:500;
+  margin-bottom:1rem;
+}
+footer{
+  text-align:center;
+  padding:3rem 1rem;
+  color:var(--muted);
+  font-size:.9rem;
+}
+a{
+  color:var(--accent);
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+}
+a:hover{
+  border-bottom-color:var(--accent);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Noah Firth</h1>
+    <div class="tagline">Actor • Theater • Film</div>
+  </div>
+</header>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <img src="gallery1.jpg" alt="Performance still">
+      <div class="caption">
+        <h3>Stage Work</h3>
+        <p>Immersive and ensemble‑driven theater.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="gallery2.jpg" alt="Film still">
+      <div class="caption">
+        <h3>Film</h3>
+        <p>Independent film and narrative shorts.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="gallery3.jpg" alt="Education work">
+      <div class="caption">
+        <h3>Education</h3>
+        <p>Performance and teaching across age groups.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <h2>About</h2>
+  <p>
+    Noah Firth is a New York–based actor working across theater, film, and education.
+    His work emphasizes clarity, presence, and grounded storytelling.
+  </p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:noah@example.com">noah@example.com</a></p>
+  <p><a href="NoahFirth_Resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+</section>
+
+<footer>
+  © 2026 Noah Firth
+</footer>
+
+</body>
+</html>
